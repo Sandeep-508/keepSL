@@ -44,3 +44,20 @@
 .text-faqSub {
     color: #3B4655;
 }
+
+/* Common Properties */
+
+.container-keepSL {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Spacing */
+
+.py-Broker {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}

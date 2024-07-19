@@ -49,10 +49,15 @@
 
 /*----------------- faq section css --------------------*/
 .dots {
-    width: 7px;
+    max-width: 7px;
+    width: 100%;
     height: 7px;
     background-color: #27214B;
-    opacity: 7;
+    opacity: 75%;
+}
+
+.max-w-850 {
+    max-width: 850px;
 }
 
 
@@ -60,4 +65,21 @@
     .pt_lg_40 {
         padding-top: 40px;
     }
+}
+
+/* Common Properties */
+
+.container-keepSL {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Spacing */
+
+.py-Broker {
+    padding-top: 128px;
+    padding-bottom: 128px;
 }

@@ -342,6 +342,28 @@
     margin-top: 40px;
 }
 
+/* <------------------------------ scroll to top -----------------> */
+
+.scroll_top,
+.scroll_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5E72E4;
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.scroll_top {
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll_box:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px -3px #5E72E4;
+}
+
 @media (min-width:992px) {
     .mt_lg_40 {
         margin-top: 40px !important;
@@ -438,5 +460,13 @@
     .md-text-sm {
         font-size: 16px;
         line-height: 26px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .wideProp {
+        max-width: 1536px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

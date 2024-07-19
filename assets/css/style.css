@@ -265,7 +265,7 @@
 }
 
 .max-w-footerTxt {
-    max-width: 360px;
+    max-width: 290px;
 }
 
 .pyFooterColTxt {
@@ -355,8 +355,8 @@
 }
 
 .scroll_top {
-    bottom: 20px;
-    right: 20px;
+    bottom: 288px;
+    right: 124px;
 }
 
 .scroll_box:hover {
@@ -460,6 +460,27 @@
     .md-text-sm {
         font-size: 16px;
         line-height: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .scroll_top {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .scroll_top,
+    .scroll_box {
+        width: 30px;
+        height: 30px;
+    }
+
+    .pos-unset {
+        position: unset !important;
+    }
+
+    .pos-xxl-fix {
+        position: fixed !important;
     }
 }
 

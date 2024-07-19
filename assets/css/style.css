@@ -363,8 +363,8 @@
 
 .scroll_box {
     transition: all 300ms linear;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 20px;
 }
 
 .scroll_box:hover {
@@ -479,7 +479,7 @@
         height: 30px !important;
     }
 
-    .scroll_box{
+    .scroll_box {
         width: 15px;
         height: 15px;
     }

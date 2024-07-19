@@ -13,6 +13,8 @@
     font-family: "Sora", sans-serif;
 }
 
+/* font sizes and line height */
+
 .text-xxl {
     font-size: 48px;
     line-height: 64px;
@@ -43,6 +45,8 @@
     line-height: 26px;
 }
 
+/* colors */
+
 .text-sliderBlack {
     color: #27214B;
 }
@@ -59,67 +63,40 @@
     color: #3B4655;
 }
 
-
-
 /*----------------- faq section css --------------------*/
+
 .dots {
-    max-width: 7px;
+    max-width: 5px;
     width: 100%;
-    height: 7px;
+    height: 5px;
     background-color: #27214B;
     opacity: 75%;
-}
-
-.acc_add_img,
-.acc_sub_img {
-    max-width: 20px;
-    height: 20px;
-    width: 100%;
-}
-
-.acc_sub_img {
-    display: none;
-}
-
-.accordian {
-    border: 1px solid #DDDDDD;
-    border-radius: 12px;
 }
 
 .max-w-850 {
     max-width: 850px;
 }
 
-.accordian_hidden_text {
-    transition: max-height 0.5s ease, opacity 0.5s ease;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-}
-
-.accordian_hidden_text.show {
-    max-height: 1000px;
-    /* Arbitrary high value to ensure full content is shown */
-    opacity: 1;
-}
-
 .moreQuestion {
     border-radius: 12px;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #5E72E480;
     transition: all 200ms linear;
 }
 
-.moreQuestion:hover {
-    border: 1px solid #5E72E480;
+
+.moreQuestion h1 {
+    color: #5E72E480;
 }
 
 .moreQuestion:hover h1 {
-    color: #5E72E4 !important;
+    color: #5E72E4;
 }
 
-.moreQuestion:hover svg path {
-    stroke: #5E72E4;
+.moreQuestion:hover {
+    border: 1px solid #5e72e49f;
 }
+
+
 
 .right-side-arrow {
     width: 24px;
@@ -128,12 +105,6 @@
 
 .cursor-poniter {
     cursor: pointer;
-}
-
-@media (min-width:992px) {
-    .mt_lg_40 {
-        margin-top: 40px !important;
-    }
 }
 
 /* added letter spacing */
@@ -310,6 +281,71 @@
     opacity: 100% !important;
 }
 
+/*------------------ stay updated with keepspl ------------------*/
+
+.max-w-920 {
+    max-width: 920px;
+}
+
+.updatedCard {
+    max-width: 272px;
+    min-height: 168px;
+    border: 1px solid #EEEEEE80;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(94, 114, 228, 0.025) 0%, rgba(94, 114, 228, 0) 100%);
+    width: 100%;
+    transition: all 200ms linear;
+}
+
+.updatedCard:hover {
+    background: #5E72E4;
+}
+
+.updatedCard:hover p {
+    color: #FFFFFF !important;
+}
+
+.social-media-icon {
+    max-width: 48px;
+    height: 48px;
+}
+
+.max-w-224 {
+    max-width: 224px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+/* <------------------------------ scroll to top -----------------> */
+
+.scroll_top,
+.scroll_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5E72E4;
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.scroll_top {
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll_box:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px -3px #5E72E4;
+}
+
+@media (min-width:992px) {
+    .mt_lg_40 {
+        margin-top: 40px !important;
+    }
+}
+
 @media (max-width: 991.9px) {
     .max-w-sliderText {
         max-width: 100%;
@@ -330,6 +366,13 @@
 
     .ptFreeTrial {
         padding-top: 100px;
+    }
+}
+
+@media (min-width:768px) {
+    .md-text-lg {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
@@ -389,40 +432,56 @@
     .ptFreeTrial {
         padding-top: 90px;
     }
+
+    .md-text-sm {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 
-/*------------------ stay updated with keepspl ------------------*/
-.max-w-920 {
-    max-width: 920px;
+@media (min-width: 1536px) {
+    .wideProp {
+        max-width: 1536px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.updatedCard {
-    max-width: 272px;
-    min-height: 168px;
-    border: 1px solid #EEEEEE80;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgba(94, 114, 228, 0.025) 0%, rgba(94, 114, 228, 0) 100%);
-    width: 100%;
-    transition: all 200ms linear;
+
+
+/* accordinan ================*/
+
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
 }
 
-.updatedCard:hover {
-    background: #5E72E4;
+.accordion-button:focus {
+    box-shadow: none !important;
 }
 
-.updatedCard:hover p {
-    color: #FFFFFF !important;
+.accordion-button::after {
+    background-image: url("../images/png/accodeina-add-img.png");
 }
 
-.social-media-icon {
-    max-width: 48px;
-    height: 48px;
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/png/accodeina-sub-img.png");
+    height: 24px;
 }
 
-.max-w-224 {
-    max-width: 224px;
+.accordion-item {
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
 }
 
-.mt_40 {
-    margin-top: 40px;
+.accordion-item:not(:first-of-type) {
+    border: 1px solid #DDDDDD;
+}
+
+.accordion-button {
+    border-bottom: 0px;
+    border-radius: 12px;
+}
+
+.accordion-body {
+    padding-top: 0;
 }

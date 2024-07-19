@@ -473,6 +473,16 @@
         font-size: 16px;
         line-height: 26px;
     }
+
+    .scroll_top {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .scroll_box{
+        width: 15px;
+        height: 15px;
+    }
 }
 
 @media (min-width: 1536px) {

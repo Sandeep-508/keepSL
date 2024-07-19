@@ -45,3 +45,19 @@
     color: #3B4655;
 }
 
+
+
+/*----------------- faq section css --------------------*/
+.dots {
+    width: 7px;
+    height: 7px;
+    background-color: #27214B;
+    opacity: 7;
+}
+
+
+@media (min-width:992px) {
+    .pt_lg_40 {
+        padding-top: 40px;
+    }
+}

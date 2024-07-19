@@ -180,7 +180,7 @@
 }
 
 .slick-dots {
-    bottom: 10px !important;
+    bottom: 0 !important;
 }
 
 .max-w-sliderText {
@@ -205,6 +205,19 @@
     border: 1px solid transparent;
     gap: 12px;
     box-shadow: 0px 1px 2px 0px #1018280D;
+    transition: all 200ms linear;
+}
+
+.btnGetStart:hover {
+    border: 1px solid #5E72E4;
+    background: white;
+    color: #5E72E4 !important;
+}
+
+.btnGetStart:hover .wh-btnArrow svg path {
+    stroke: #5E72E4 !important;
+    /* fill: #5E72E4 !important; */
+    transform: translate(4px, -4px);
 }
 
 .my-media-sliderContent {
@@ -228,6 +241,7 @@
     color: #5E72E4;
 }
 
+
 .wh-btnTrial {
     width: 14px;
     height: 14px;
@@ -235,6 +249,10 @@
 
 .mb-mediaTrialTxt {
     margin-bottom: 32px;
+}
+
+.ptFreeTrial {
+    padding-top: 120px;
 }
 
 /* FOOTER CSS */
@@ -304,6 +322,10 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    .ptFreeTrial {
+        padding-top: 100px;
+    }
 }
 
 @media (max-width:1024px) {
@@ -357,6 +379,10 @@
     .footerProp {
         padding-top: 26px;
         padding-bottom: 20px;
+    }
+
+    .ptFreeTrial {
+        padding-top: 90px;
     }
 }
 

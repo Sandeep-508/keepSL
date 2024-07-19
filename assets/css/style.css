@@ -12,6 +12,8 @@
     font-family: "Sora", sans-serif;
 }
 
+/* font sizes and line height */
+
 .text-xxl {
     font-size: 48px;
     line-height: 64px;
@@ -42,6 +44,8 @@
     line-height: 26px;
 }
 
+/* colors */
+
 .text-sliderBlack {
     color: #27214B;
 }
@@ -58,9 +62,8 @@
     color: #3B4655;
 }
 
-
-
 /*----------------- faq section css --------------------*/
+
 .dots {
     max-width: 7px;
     width: 100%;
@@ -98,7 +101,6 @@
 
 .accordian_hidden_text.show {
     max-height: 1000px;
-    /* Arbitrary high value to ensure full content is shown */
     opacity: 1;
 }
 
@@ -127,12 +129,6 @@
 
 .cursor-poniter {
     cursor: pointer;
-}
-
-@media (min-width:992px) {
-    .mt_lg_40 {
-        margin-top: 40px !important;
-    }
 }
 
 /* added letter spacing */
@@ -309,6 +305,49 @@
     opacity: 100% !important;
 }
 
+/*------------------ stay updated with keepspl ------------------*/
+
+.max-w-920 {
+    max-width: 920px;
+}
+
+.updatedCard {
+    max-width: 272px;
+    min-height: 168px;
+    border: 1px solid #EEEEEE80;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(94, 114, 228, 0.025) 0%, rgba(94, 114, 228, 0) 100%);
+    width: 100%;
+    transition: all 200ms linear;
+}
+
+.updatedCard:hover {
+    background: #5E72E4;
+}
+
+.updatedCard:hover p {
+    color: #FFFFFF !important;
+}
+
+.social-media-icon {
+    max-width: 48px;
+    height: 48px;
+}
+
+.max-w-224 {
+    max-width: 224px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+@media (min-width:992px) {
+    .mt_lg_40 {
+        margin-top: 40px !important;
+    }
+}
+
 @media (max-width: 991.9px) {
     .max-w-sliderText {
         max-width: 100%;
@@ -329,6 +368,13 @@
 
     .ptFreeTrial {
         padding-top: 100px;
+    }
+}
+
+@media (min-width:768px) {
+    .md-text-lg {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
 
@@ -388,40 +434,9 @@
     .ptFreeTrial {
         padding-top: 90px;
     }
-}
 
-/*------------------ stay updated with keepspl ------------------*/
-.max-w-920 {
-    max-width: 920px;
-}
-
-.updatedCard {
-    max-width: 272px;
-    min-height: 168px;
-    border: 1px solid #EEEEEE80;
-    border-radius: 20px;
-    background: linear-gradient(180deg, rgba(94, 114, 228, 0.025) 0%, rgba(94, 114, 228, 0) 100%);
-    width: 100%;
-    transition: all 200ms linear;
-}
-
-.updatedCard:hover {
-    background: #5E72E4;
-}
-
-.updatedCard:hover p {
-    color: #FFFFFF !important;
-}
-
-.social-media-icon {
-    max-width: 48px;
-    height: 48px;
-}
-
-.max-w-224 {
-    max-width: 224px;
-}
-
-.mt_40 {
-    margin-top: 40px;
+    .md-text-sm {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

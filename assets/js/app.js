@@ -2,6 +2,10 @@
 
 // faq code-----------------------------------
 let accordian = document.querySelectorAll(".accordian");
+document.querySelector(".acc_sub_img").style.display = "block";
+document.querySelector(".acc_add_img").style.display = "none";
+document.querySelector(".accordian_hidden_text").classList.add("show")
+
 accordian.forEach((items) => {
     let subImg = items.querySelector(".acc_sub_img");
     let addImg = items.querySelector(".acc_add_img");

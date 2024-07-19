@@ -56,14 +56,42 @@
     opacity: 75%;
 }
 
+.acc_add_img,
+.acc_sub_img {
+    width: 20px;
+    height: 20px;
+}
+
+.acc_sub_img {
+    display: none;
+}
+
+.accordian {
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+}
+
 .max-w-850 {
     max-width: 850px;
 }
 
+.accordian_hidden_text {
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.accordian_hidden_text.show {
+    max-height: 1000px;
+    /* Arbitrary high value to ensure full content is shown */
+    opacity: 1;
+}
+
 
 @media (min-width:992px) {
-    .pt_lg_40 {
-        padding-top: 40px;
+    .mt_lg_40 {
+        margin-top: 40px;
     }
 }
 

@@ -103,8 +103,21 @@
 }
 
 .moreQuestion {
-    border: 1px solid #5E72E480;
     border-radius: 12px;
+    border: 1px solid #DDDDDD;
+    transition: all 200ms linear;
+}
+
+.moreQuestion:hover {
+    border: 1px solid #5E72E480;
+}
+
+.moreQuestion:hover h1 {
+    color: #5E72E4 !important;
+}
+
+.moreQuestion:hover svg path {
+    stroke: #5E72E4;
 }
 
 .right-side-arrow {

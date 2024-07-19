@@ -1,5 +1,4 @@
 
-
 // faq code-----------------------------------
 let accordian = document.querySelectorAll(".accordian");
 document.querySelector(".acc_sub_img").style.display = "block";

@@ -353,7 +353,6 @@
     height: 50px;
     border-radius: 50%;
     background-color: #5E72E4;
-    transition: all 300ms linear;
     cursor: pointer;
 }
 
@@ -363,6 +362,7 @@
 }
 
 .scroll_box {
+    transition: all 300ms linear;
     width: 24px;
     height: 24px;
 }

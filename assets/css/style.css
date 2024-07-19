@@ -67,6 +67,12 @@
     }
 }
 
+/* added letter spacing */
+
+.ls-1 {
+    letter-spacing: -0.01em;
+}
+
 /* Common Properties */
 
 .container-keepSL {
@@ -82,4 +88,33 @@
 .py-Broker {
     padding-top: 128px;
     padding-bottom: 128px;
+}
+
+/* Slick Slider CSS */
+
+.slick-dots li button {
+    display: none !important;
+}
+
+.slick-dots li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #5E72E4;
+}
+
+.slick-dots li.slick-active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5E72E4;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.max-w-sliderText {
+    max-width: 500px;
 }

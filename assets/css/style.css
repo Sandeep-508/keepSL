@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
 .font-sora {
     font-family: "Sora", sans-serif;
 }
@@ -196,6 +204,10 @@
         max-width: 100%;
     }
 
+    .max-lg-max-w-600 {
+        max-width: 600px;
+    }
+
     .max-w-sliderSubTxt {
         max-width: 100%;
     }
@@ -239,4 +251,40 @@
     .slick-dotted.slick-slider {
         margin-bottom: 20px !important;
     }
+}
+
+/*------------------ stay updated with keepspl ------------------*/
+.max-w-920 {
+    max-width: 920px;
+}
+
+.updatedCard {
+    max-width: 272px;
+    min-height: 168px;
+    border: 1px solid #EEEEEE80;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(94, 114, 228, 0.025) 0%, rgba(94, 114, 228, 0) 100%);
+    width: 100%;
+    transition: all 200ms linear;
+}
+
+.updatedCard:hover {
+    background: #5E72E4;
+}
+
+.updatedCard:hover p {
+    color: #FFFFFF !important;
+}
+
+.social-media-icon {
+    max-width: 48px;
+    height: 48px;
+}
+
+.max-w-224 {
+    max-width: 224px;
+}
+
+.mt_40 {
+    margin-top: 40px;
 }

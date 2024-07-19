@@ -259,6 +259,21 @@
     padding-top: 32px;
 }
 
+.line {
+    width: 100%;
+    height: 1px;
+    background: #FFFFFF33;
+    margin-top: 32px;
+}
+
+.mbFooterLink {
+    margin-bottom: 14px;
+}
+
+.mbFooterSubLink {
+    margin-bottom: 8px;
+}
+
 @media (max-width: 991.9px) {
     .max-w-sliderText {
         max-width: 100%;
@@ -316,6 +331,19 @@
         background-image: url('../images/png/mediaBg.png');
         background-size: cover;
         border-radius: 20px;
+    }
+
+    .pyFooterColTxt {
+        padding-bottom: 16px;
+    }
+
+    .mbMediaSm {
+        margin-bottom: 32px;
+    }
+
+    .footerProp {
+        padding-top: 26px;
+        padding-bottom: 20px;
     }
 }
 

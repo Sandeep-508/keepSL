@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.font-sora {
+    font-family: "Sora", sans-serif;
+}
+
+.text-xxl {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.text-md {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.text-base {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.text-lg {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text-base {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.text-sliderBlack {
+    color: #27214B;
+}
+
+.primary-color {
+    color: #5E72E4;
+}
+
+.text-faqBlack {
+    color: #101828;
+}
+
+.text-faqSub {
+    color: #3B4655;
+}

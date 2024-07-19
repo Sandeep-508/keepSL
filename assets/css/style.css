@@ -172,6 +172,31 @@
     margin-bottom: 40px;
 }
 
+/* FREE TRIAL SECTION CSS */
+
+.freeTrialSec {
+    background-image: url('../images/png/FreeTrialSecBgImg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.btnGetStartTrial {
+    background: white;
+    color: #5E72E4;
+}
+
+.wh-btnTrial {
+    width: 14px;
+    height: 14px;
+}
+
+.mb-mediaTrialTxt {
+    margin-bottom: 32px;
+}
+
 @media (max-width: 991.9px) {
     .max-w-sliderText {
         max-width: 100%;
@@ -219,5 +244,11 @@
 
     .slick-dotted.slick-slider {
         margin-bottom: 20px !important;
+    }
+
+    .freeTrialSec {
+        background-image: url('../images/png/mediaBg.png');
+        background-size: cover;
+        border-radius: 20px;
     }
 }

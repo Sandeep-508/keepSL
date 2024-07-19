@@ -20,7 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="wideProp position-relative pos-unset">
+<body class="wideProp">
 
     <!---------------------------- slider Section ------------------------>
     <section class="py-Broker">
@@ -29,20 +29,20 @@
                 <div class="col-lg-6 col-sm-8">
                     <div class="slick-slider">
                         <div class="slider-items">
-                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-100">
+                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-sliderImg">
                         </div>
                         <div class="slider-items">
-                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-100">
+                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-sliderImg">
                         </div>
                         <div class="slider-items">
-                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-100">
+                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-sliderImg">
                         </div>
                         <div class="slider-items">
-                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-100">
+                            <img src="./assets/images/png/SliderImg.png" alt="brokers images" class="w-100 h-sliderImg">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-8 d-flex align-items-start justify-content-center flex-column">
+                <div class="col-lg-6 col-md-8 d-flex align-items-start justify-content-center flex-column">
                     <div class="d-flex align-items-start justify-content-start">
                         <p
                             class="ls-1 font-sora fw-semibold text-xxl max-w-sliderText text-sliderBlack mb-0 mediaSliderMainTxt">
@@ -230,7 +230,10 @@
     <!---------------- Free Trial ------------------>
     <section class="px-3 ptFreeTrial">
         <div
-            class="container-keepSL freeTrialSec d-flex align-items-center justify-content-center flex-column py-media-freeTrial">
+            class="container-keepSL freeTrialSec d-flex align-items-center justify-content-center flex-column py-media-freeTrial position-relative">
+            <div class="position-absolute top-0 start-0">
+                <img src="./assets/images/png/freetrialTopImg.png" alt="vector of free trial section">
+            </div>
             <p class="font-sora fw-semibold text-xxl text-white mb-mediaTrialTxt mediaSliderMainTxt text-center">30-Days
                 Free Trial!
             </p>
@@ -286,7 +289,7 @@
         </div>
     </section>
 
-    <!--=------------- Footer Section ----------------->
+    <!---------------- Footer Section ----------------->
     <footer class="footerProp">
         <div class="container-keepSL">
             <div class="row justify-content-between">
@@ -295,10 +298,9 @@
                         <a href="#"><img src="./assets/images/png/Keepsl_logo.png" class="w-100 h-100"
                                 alt="footer logo"></a>
                     </div>
-                    <p
-                        class="max-w-footerTxt font-sora fw-normal text-base text-white pyFooterColTxt mb-0 text-lowercase">
-                        KEEPSl
-                        TECHNOLOGIES LLP PUTTENAHALLI(V) JP NAGAR, 7TH PHASE BENGALURU, KARNATAKA,INDIA 560078</p>
+                    <p class="max-w-footerTxt font-sora fw-normal text-base text-white pyFooterColTxt mb-0">
+                        Keepsl
+                        technologies llp puttenahali(v) jp nagar, 7th phase bengaluru, karnataka,india 560078</p>
                     <div class="d-flex align-items-start justify-content-start flex-column">
                         <a href="mailto:whatisthis@gmail.com"
                             class="font-sora fw-normal text-sm text-white">Email: support@keepsl.com</a>
@@ -339,16 +341,17 @@
                 class="d-flex align-items-center justify-content-sm-between justify-content-center flex-sm-row flex-column pt-copyright flex-sm-nowrap flex-wrap">
                 <p class="font-sora fw-normal text-footer text-white opacity-65 mb-sm-0 mb-1">© 2024 KeepSL. All rights
                     reserved.</p>
-                <p class="font-sora fw-normal text-footer text-white opacity-65 mb-0">Privecy Policy. Terms & Condition
-                </p>
+                <a href="#" class="font-sora fw-normal text-footer text-white opacity-65 mb-0 footerLink">Privecy Policy
+                    . Terms & Condition
+                </a>
             </div>
         </div>
     </footer>
 
     <!-- scroll to top -->
 
-    <section class="scroll_top position-absolute pos-xxl-fix shadow cursor z-50">
-        <div class="scroll_box">
+    <section class="scroll_top position-fixed shadow cursor z-50 d-flex align-items-center justify-content-center">
+        <div class="scroll_box d-flex align-items-center justify-content-center">
             <img src="./assets/images/svg/scroll_top_icon.svg" alt="scroll to top icon" class="w-100 h-100">
         </div>
     </section>

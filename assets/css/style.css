@@ -221,6 +221,10 @@
     margin-bottom: 40px;
 }
 
+.h-sliderImg {
+    height: 441px !important;
+}
+
 /* FREE TRIAL SECTION CSS */
 
 .freeTrialSec {
@@ -344,8 +348,7 @@
 
 /* <------------------------------ scroll to top -----------------> */
 
-.scroll_top,
-.scroll_box {
+.scroll_top {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -355,8 +358,13 @@
 }
 
 .scroll_top {
-    bottom: 288px;
-    right: 124px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll_box {
+    width: 24px;
+    height: 24px;
 }
 
 .scroll_box:hover {
@@ -390,6 +398,10 @@
 
     .ptFreeTrial {
         padding-top: 100px;
+    }
+
+    .h-sliderImg {
+        height: auto !important;
     }
 }
 
@@ -460,27 +472,6 @@
     .md-text-sm {
         font-size: 16px;
         line-height: 26px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .scroll_top {
-        bottom: 20px;
-        right: 20px;
-    }
-
-    .scroll_top,
-    .scroll_box {
-        width: 30px;
-        height: 30px;
-    }
-
-    .pos-unset {
-        position: unset !important;
-    }
-
-    .pos-xxl-fix {
-        position: fixed !important;
     }
 }
 

@@ -197,6 +197,41 @@
     margin-bottom: 32px;
 }
 
+/* FOOTER CSS */
+
+.footerLogo {
+    width: 48px;
+    height: 48px;
+}
+
+.footerProp {
+    padding-top: 51px;
+    padding-bottom: 43px;
+    background: #111C2D;
+}
+
+.max-w-footerTxt {
+    max-width: 360px;
+}
+
+.pyFooterColTxt {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.text-footer {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.opacity-65 {
+    opacity: 65%;
+}
+
+.pt-copyright {
+    padding-top: 32px;
+}
+
 @media (max-width: 991.9px) {
     .max-w-sliderText {
         max-width: 100%;
